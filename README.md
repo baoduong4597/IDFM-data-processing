@@ -23,6 +23,55 @@ This repository contains a distributed data pipeline for Île-de-France Mobilit�
 - Python (producer/consumer + utility scripts)
 
 ---
+## How ROI Stops/Lines were built from IDFM APIs and used in the pipeline
+
+This project uses IDFM PRIM APIs to construct two deterministic reference inputs:
+- `roi_stops.csv` (StopPoints/StopAreas to monitor)
+- `roi_lines.csv` (Lines to keep in the curated layer)
+
+The process below explains how these files were derived and how they are used end-to-end.
+
+### Step 1 — Collect Stop Monitoring candidates from iCAR
+Source: https://prim.iledefrance-mobilites.fr/en/apis/idfm-icar
+
+1. Query the iCAR API to retrieve stop monitoring candidates (stops/stations).
+2. Filter to the stations/stops of interest (Region of Interest, ROI), based on the project scope.
+
+### Step 2 — Normalize IDs to build `roi_stops.csv`
+Using the **iCAR sample format** and the returned payload structure:
+- Extract stable stop identifiers (StopPoint / StopArea identifiers)
+- Normalize them into a consistent format that can be used as inputs for stop-based queries
+- Export the resulting list as `kafka-scripts/reference/roi_stops.csv`
+
+This normalization ensures the stop identifiers in `roi_stops.csv` match what the real-time responses use (e.g., `MonitoringRef.value` fields).
+
+### Step 3 — Retrieve Lines from iLico
+Source: https://prim.iledefrance-mobilites.fr/en/apis/idfm-ilico
+
+1. Query the iLico API to retrieve available lines and line metadata.
+2. Filter to the set of lines relevant to the ROI or project topic.
+
+### Step 4 — Cross-check with iCAR responses to build `roi_lines.csv`
+Source: https://prim.iledefrance-mobilites.fr/en/apis/idfm-icar
+
+To ensure consistent identifiers across APIs:
+- Compare iLico line identifiers with the line references observed in iCAR responses
+- Keep the stable IDs that match the real-time payload (e.g., those appearing in `LineRef.value`)
+- Export the resulting mapping as `kafka-scripts/reference/roi_lines.csv`
+
+### Step 5 — Call Stop Monitoring per stop using `roi_stops.csv` and write Raw
+The producer reads the stop list from `roi_stops.csv` and calls the stop-based endpoint accordingly, producing:
+- Kafka messages (one JSON event per record)
+- A raw layer in HDFS written by the Spark job (Kafka -> HDFS raw)
+
+> API quota note: Stop-based calls are limited to **1000 requests/day per access key**, so ROI filtering and throttling are required.
+
+### Step 6 — Curated processing joins with `roi_lines.csv`
+During the curated batch step:
+- Parse and normalize the nested SIRI payload fields
+- Join curated events with `roi_lines.csv` to keep only the lines of interest and/or enrich with line-level metadata
+- Write the curated output for KPI computation and optional downstream sinks (InfluxDB/Grafana)
+
 
 ## Repository Structure
 
