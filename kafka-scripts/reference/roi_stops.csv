@@ -1,0 +1,43 @@
+id,name,stop_type,town,name_norm,roi_station,stop_numeric_id,siri_monitoring_ref
+FR::multimodalStopPlace:412697:FR1,Noisy-le-Grand - Mont d'Est,railStation,Noisy-le-Grand,noisy le grand mont d est,NOISY_MONT_EST,412697,STIF:StopPoint:Q:412697:
+FR::multimodalStopPlace:73163:FR1,Noisy - Champs,railStation,Noisy-le-Grand,noisy champs,NOISY_CHAMPS,73163,STIF:StopPoint:Q:73163:
+FR::multimodalStopPlace:71517:FR1,La Défense,railStation,Puteaux,la defense,LA_DEFENSE,71517,STIF:StopPoint:Q:71517:
+FR::multimodalStopPlace:482368:FR1,Havre - Caumartin,metroStation,Paris 9e,havre caumartin,HAVRE_CAUMARTIN,482368,STIF:StopPoint:Q:482368:
+FR::multimodalStopPlace:71718:FR1,Val de Fontenay,railStation,Fontenay-sous-Bois,val de fontenay,VAL_DE_FONTENAY,71718,STIF:StopPoint:Q:71718:
+FR::multimodalStopPlace:73626:FR1,Gare de Lyon,railStation,Paris 12e,gare de lyon,GARE_DE_LYON,73626,STIF:StopPoint:Q:73626:
+FR::multimodalStopPlace:478926:FR1,Auber,railStation,Paris 9e,auber,AUBER,478926,STIF:StopPoint:Q:478926:
+FR::multimodalStopPlace:481050:FR1,Rosa Parks,onstreetBus,Dammartin-en-Goële,rosa parks,ROSA_PARKS,481050,STIF:StopPoint:Q:481050:
+FR::multimodalStopPlace:71557:FR1,Olympiades,metroStation,Paris 13e,olympiades,OLYMPIADES,71557,STIF:StopPoint:Q:71557:
+FR::multimodalStopPlace:73798:FR1,Rosa Parks,railStation,Paris 19e,rosa parks,ROSA_PARKS,73798,STIF:StopPoint:Q:73798:
+FR::multimodalStopPlace:66514:FR1,Les Olympiades,onstreetBus,Goussainville,les olympiades,OLYMPIADES,66514,STIF:StopPoint:Q:66514:
+FR::multimodalStopPlace:420584:FR1,Rosa Parks - Curial,onstreetBus,Paris 19e,rosa parks curial,ROSA_PARKS,420584,STIF:StopPoint:Q:420584:
+FR::monomodalStopPlace:474082:FR1,Noisy-le-Grand - Mont d'Est,railStation,Noisy-le-Grand,noisy le grand mont d est,NOISY_MONT_EST,474082,STIF:StopPoint:Q:474082:
+FR::monomodalStopPlace:426544:FR1,Noisy-Champs RER - Descartes,onstreetBus,Champs-sur-Marne,noisy champs rer descartes,NOISY_CHAMPS,426544,STIF:StopPoint:Q:426544:
+FR::monomodalStopPlace:44930:FR1,La Défense (Terminal Jules Verne),onstreetBus,Courbevoie,la defense terminal jules verne,LA_DEFENSE,44930,STIF:StopPoint:Q:44930:
+FR::monomodalStopPlace:43536:FR1,La Défense (Calder - Miro),onstreetBus,Puteaux,la defense calder miro,LA_DEFENSE,43536,STIF:StopPoint:Q:43536:
+FR::monomodalStopPlace:473415:FR1,La Défense (voie Perronet Nord),onstreetBus,Puteaux,la defense voie perronet nord,LA_DEFENSE,473415,STIF:StopPoint:Q:473415:
+FR::monomodalStopPlace:473305:FR1,Noisy - Champs RER,onstreetBus,Noisy-le-Grand,noisy champs rer,NOISY_CHAMPS,473305,STIF:StopPoint:Q:473305:
+FR::monomodalStopPlace:473219:FR1,Gare de Lyon - Maison de la RATP,onstreetBus,Paris 12e,gare de lyon maison de la ratp,GARE_DE_LYON,473219,STIF:StopPoint:Q:473219:
+FR::monomodalStopPlace:473236:FR1,Havre - Caumartin,onstreetBus,Paris 9e,havre caumartin,HAVRE_CAUMARTIN,473236,STIF:StopPoint:Q:473236:
+FR::monomodalStopPlace:488623:FR1,La Défense (voie Perronet Est),onstreetBus,Puteaux,la defense voie perronet est,LA_DEFENSE,488623,STIF:StopPoint:Q:488623:
+FR::monomodalStopPlace:473893:FR1,Auber,onstreetBus,Paris 9e,auber,AUBER,473893,STIF:StopPoint:Q:473893:
+FR::monomodalStopPlace:473416:FR1,La Défense (voie Perronet Sud),onstreetBus,Puteaux,la defense voie perronet sud,LA_DEFENSE,473416,STIF:StopPoint:Q:473416:
+FR::monomodalStopPlace:473216:FR1,Gare de Lyon - Diderot,onstreetBus,Paris 12e,gare de lyon diderot,GARE_DE_LYON,473216,STIF:StopPoint:Q:473216:
+FR::monomodalStopPlace:481049:FR1,Rosa Parks,onstreetBus,Dammartin-en-Goële,rosa parks,ROSA_PARKS,481049,STIF:StopPoint:Q:481049:
+FR::monomodalStopPlace:43153:FR1,Gare de Lyon,metroStation,Paris 12e,gare de lyon,GARE_DE_LYON,43153,STIF:StopPoint:Q:43153:
+FR::monomodalStopPlace:462395:FR1,La Défense (Grande Arche),onstreetTram,Puteaux,la defense grande arche,LA_DEFENSE,462395,STIF:StopPoint:Q:462395:
+FR::monomodalStopPlace:470549:FR1,La Défense,railStation,Puteaux,la defense,LA_DEFENSE,470549,STIF:StopPoint:Q:470549:
+FR::monomodalStopPlace:470548:FR1,La Défense (Grande Arche),metroStation,Puteaux,la defense grande arche,LA_DEFENSE,470548,STIF:StopPoint:Q:470548:
+FR::monomodalStopPlace:426987:FR1,Gare de Lyon - Van Gogh,onstreetBus,Paris 12e,gare de lyon van gogh,GARE_DE_LYON,426987,STIF:StopPoint:Q:426987:
+FR::monomodalStopPlace:44217:FR1,Olympiades,onstreetBus,Paris 13e,olympiades,OLYMPIADES,44217,STIF:StopPoint:Q:44217:
+FR::monomodalStopPlace:462375:FR1,Havre-Caumartin,metroStation,Paris 9e,havre caumartin,HAVRE_CAUMARTIN,462375,STIF:StopPoint:Q:462375:
+FR::monomodalStopPlace:45873:FR1,Auber,railStation,Paris 9e,auber,AUBER,45873,STIF:StopPoint:Q:45873:
+FR::monomodalStopPlace:43771:FR1,Les Olympiades,onstreetBus,Goussainville,les olympiades,OLYMPIADES,43771,STIF:StopPoint:Q:43771:
+FR::monomodalStopPlace:473485:FR1,Rosa Parks,onstreetBus,Paris 19e,rosa parks,ROSA_PARKS,473485,STIF:StopPoint:Q:473485:
+FR::monomodalStopPlace:47900:FR1,Val de Fontenay,railStation,Fontenay-sous-Bois,val de fontenay,VAL_DE_FONTENAY,47900,STIF:StopPoint:Q:47900:
+FR::monomodalStopPlace:58937:FR1,Noisy - Champs,railStation,Noisy-le-Grand,noisy champs,NOISY_CHAMPS,58937,STIF:StopPoint:Q:58937:
+FR::monomodalStopPlace:470195:FR1,Gare de Lyon,railStation,Paris 12e,gare de lyon,GARE_DE_LYON,470195,STIF:StopPoint:Q:470195:
+FR::monomodalStopPlace:420583:FR1,Rosa Parks - Curial,onstreetBus,Paris 19e,rosa parks curial,ROSA_PARKS,420583,STIF:StopPoint:Q:420583:
+FR::monomodalStopPlace:473484:FR1,Rosa Parks,onstreetTram,Paris 19e,rosa parks,ROSA_PARKS,473484,STIF:StopPoint:Q:473484:
+FR::monomodalStopPlace:479056:FR1,Olympiades,metroStation,Paris 13e,olympiades,OLYMPIADES,479056,STIF:StopPoint:Q:479056:
+FR::monomodalStopPlace:58498:FR1,Rosa Parks,railStation,Paris 19e,rosa parks,ROSA_PARKS,58498,STIF:StopPoint:Q:58498:

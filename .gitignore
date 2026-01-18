@@ -1,0 +1,21 @@
+# python
+__pycache__/
+*.pyc
+*.log
+.venv/
+.DS_Store
+
+# secrets
+.env
+*.pem
+*.key
+id_rsa*
+
+# big raw data (do not push)
+kafka-scripts/*.json
+kafka-scripts/*.xml
+kafka-scripts/*.parquet
+kafka-scripts/*.ipynb
+
+# keep only reference csv
+!kafka-scripts/reference/*.csv

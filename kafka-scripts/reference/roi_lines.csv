@@ -1,0 +1,8 @@
+line_id,name,short_name,transport_mode,transport_submode,operator_ref,roi_label,line_code,siri_line_ref
+FR1:Line:C01278:,310,310,bus,,"{'version': 'any', 'ref': 'FR1:Operator:1043:LOC'}",Bus 310,C01278,STIF:Line::C01278:
+FR1:Line:C01283:,320,320,bus,,"{'version': 'any', 'ref': 'FR1:Operator:1043:LOC'}",Bus 320,C01283,STIF:Line::C01283:
+FR1:Line:C01377:,7,7,metro,,"{'version': 'any', 'ref': 'FR1:Operator:100:LOC'}",Metro 7,C01377,STIF:Line::C01377:
+FR1:Line:C01379:,9,9,metro,,"{'version': 'any', 'ref': 'FR1:Operator:100:LOC'}",Metro 9,C01379,STIF:Line::C01379:
+FR1:Line:C01384:,14,14,metro,,"{'version': 'any', 'ref': 'FR1:Operator:100:LOC'}",Metro 14,C01384,STIF:Line::C01384:
+FR1:Line:C01729:,E,E,rail,{'RailSubmode': 'local'},"{'version': 'any', 'ref': 'FR1:Operator:800:LOC'}",RER E,C01729,STIF:Line::C01729:
+FR1:Line:C01742:,A,A,rail,{'RailSubmode': 'local'},"{'version': 'any', 'ref': 'FR1:Operator:800:LOC'}",RER A,C01742,STIF:Line::C01742:
