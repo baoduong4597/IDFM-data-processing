@@ -72,7 +72,7 @@ During the curated batch step:
 - Join curated events with `roi_lines.csv` to keep only the lines of interest and/or enrich with line-level metadata
 - Write the curated output for KPI computation and optional downstream sinks (InfluxDB/Grafana)
 
-
+---
 ## Repository Structure
 
 - `kafka-scripts/`
